@@ -1,13 +1,18 @@
 import React from 'react'
-import { Nav, NavLink } from './NavbarElements'
+import { Bars, Nav, NavIcon, NavLink } from './NavbarElements'
 
 const Navbar = () => {
   return (
-    <div>
+    <>
       <Nav>
-      <NavLink to="/">Okaay ooo</NavLink>
+      <NavLink to="/">Pizza</NavLink>
+      {/* <NavIcon>
+        <p>Menu</p>
+        
+        <Bars />
+      </NavIcon> */}
       </Nav>
-    </div>
+    </>
   )
 }
 

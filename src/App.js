@@ -4,14 +4,13 @@ import Navbar from './components/navbar/index';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Router>
         <Switch>
-          <Router exact path="/" component={Navbar} />
+          <Router path="/" component={Navbar} />
         </Switch>
       </Router>
-    {/* <Navbar /> */}
-    </div>
+    </>
   );
 }
 
